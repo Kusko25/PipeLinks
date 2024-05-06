@@ -9,6 +9,8 @@
             <li>HiddenConduit</li>
             <li>WaterproofConduit</li>
             <li>PowerSwitch</li>
+            <li>null</li>
+            <li>null</li>
         </arguments>
     </Operation>
     <Operation Class="XmlExtensions.ApplyPatch">
@@ -20,6 +22,8 @@
             <li>HiddenConduit</li>
             <li>WaterproofConduit</li>
             <li>PowerSwitch</li>
+            <li>null</li>
+            <li>null</li>
         </arguments>
     </Operation>
 </Patch>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Nutrient Paste Expanded -->
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Nutrient Paste Expanded</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Nutrient Paste Expanded</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Nutrient Paste Expanded</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Nutrient Paste Expanded</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Nutrient Paste Expanded</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>VNPE_NutrientPastePipe</li>
+            <li>VNPE_UndergroundNutrientPastePipe</li>
+            <li>VNPE_NutrientPasteValve</li>
+            <li>VNPE_NutrientPasteVat</li>
+            <li>VNPE_NutrientPasteTap</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <!-- Vanilla Races Expanded - Android -->
+    <!-- Disabled because other mod also patches this and it is VERY unholy -->
+    <!-- <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Android</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroDrain</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Android</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroDrain</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Android</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroDrain</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Android</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroDrain</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Android</li>
+            <li>VREA_NeutroDrain</li>
+            <li>VREA_NeutroPipe</li>
+            <li>VREA_SubterraneanNeutroPipe</li>
+            <li>VREA_NeutroTank</li>
+            <li>VREA_NeutroTap</li>
+            <li>VREA_NeutroDrain</li>
+            <li>null</li>
+        </arguments>
+    </Operation> -->
+    <!-- Vanilla Races Expanded - Sanguophage -->
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+            <li>VRE_HemogenDrain</li>
+            <li>VRE_HemogenPipe</li>
+            <li>VRE_UndergroundHemogenPipe</li>
+            <li>VRE_HemogenValve</li>
+            <li>VRE_HemogenVat</li>
+            <li>VRE_HemogenTap</li>
+            <li>VRE_HemogenDrain</li>
+        </arguments>
+    </Operation>
+</Patch>
