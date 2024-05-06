@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<Operation Class="XmlExtensions.ApplyPatch">
-    <patchName>AddLinkedPipes</patchName>
-    <arguments>
-        <li>Core</li>
-        <li>PowerConduit</li>
-        <li>HiddenConduit</li>
-    </arguments>
-</Operation>
+<Patch>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Core</li>
+            <li>PowerConduit</li>
+            <li>PowerConduit</li>
+            <li>HiddenConduit</li>
+            <li>WaterproofConduit</li>
+            <li>PowerSwitch</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Core</li>
+            <li>PowerSwitch</li>
+            <li>PowerConduit</li>
+            <li>HiddenConduit</li>
+            <li>WaterproofConduit</li>
+            <li>PowerSwitch</li>
+        </arguments>
+    </Operation>
+</Patch>

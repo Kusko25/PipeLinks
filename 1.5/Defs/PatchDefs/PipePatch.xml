@@ -4,7 +4,10 @@
         <parameters>
             <li>modName</li>
             <li>sourceDef</li>
-            <li>targetDef</li>
+            <li>targetDef0</li>
+            <li>targetDef1</li>
+            <li>targetDef2</li>
+            <li>targetDef3</li>
         </parameters>
         <apply>
             <Operation Class="XmlExtensions.FindMod">
@@ -12,12 +15,62 @@
                     <li>{modName}</li>
                 </mods>
                 <caseTrue>
-                    <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-                        <xpath>Defs/ThingDef[defName="{sourceDef}"]/building/relatedBuildCommands</xpath>
+                    <Operation Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                        <xpath>Defs/ThingDef[defName="{sourceDef}"]/building</xpath>
                         <compare>InnerText</compare>
                         <value>
-                            <li>{targetDef}</li>
+                            <relatedBuildCommands>
+                                <li>{targetDef0}</li>
+                            </relatedBuildCommands>
                         </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.IfStatement">
+                        <condition Class="XmlExtensions.Boolean.Comparison">
+                            <value1>{targetDef1}</value1>
+                            <value2>null</value2>
+                            <nonNumeric>true</nonNumeric>
+                        </condition>
+                        <caseFalse>
+                            <Operation Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                                <xpath>Defs/ThingDef[defName="{sourceDef}"]/building/relatedBuildCommands</xpath>
+                                <compare>InnerText</compare>
+                                <value>
+                                    <li>{targetDef1}</li>
+                                </value>
+                            </Operation>
+                        </caseFalse>
+                    </Operation>
+                    <Operation Class="XmlExtensions.IfStatement">
+                        <condition Class="XmlExtensions.Boolean.Comparison">
+                            <value1>{targetDef2}</value1>
+                            <value2>null</value2>
+                            <nonNumeric>true</nonNumeric>
+                        </condition>
+                        <caseFalse>
+                            <Operation Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                                <xpath>Defs/ThingDef[defName="{sourceDef}"]/building/relatedBuildCommands</xpath>
+                                <compare>InnerText</compare>
+                                <value>
+                                    <li>{targetDef2}</li>
+                                </value>
+                            </Operation>
+                        </caseFalse>
+                    </Operation>
+                    <Operation Class="XmlExtensions.IfStatement">
+                        <condition Class="XmlExtensions.Boolean.Comparison">
+                            <value1>{targetDef3}</value1>
+                            <value2>null</value2>
+                            <nonNumeric>true</nonNumeric>
+                        </condition>
+                        <caseFalse>
+                            <Operation Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+                                <xpath>Defs/ThingDef[defName="{sourceDef}"]/building/relatedBuildCommands</xpath>
+                                <compare>InnerText</compare>
+                                <value>
+                                    <li>{targetDef3}</li>
+                                </value>
+                            </Operation>
+                        </caseFalse>
                     </Operation>
                 </caseTrue>
             </Operation>
