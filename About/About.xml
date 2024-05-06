@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Create Linked Buildings</name>
+    <packageId>Blackmoor.PipeLinks</packageId>
+    <author>Blackmoor</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>When you select power conduit it should have hidden conduit as a linked buildable. That and also other pipenetworks.</description>
+    <modDependencies>
+        <li>
+            <packageId>imranfish.xmlextensions</packageId>
+            <displayName>XML Extensions</displayName>
+            <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>imranfish.xmlextensions</li>
+    </loadAfter>
+</ModMetaData>

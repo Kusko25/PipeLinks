@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.PatchDef Name="AddLinkedPipes" Abstract="True">
+        <parameters>
+            <li>modName</li>
+            <li>sourceDef</li>
+            <li>targetDef</li>
+        </parameters>
+        <apply>
+            <Operation Class="XmlExtensions.FindMod">
+                <mods>
+                    <li>{modName}</li>
+                </mods>
+                <caseTrue>
+                    <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                        <xpath>Defs/ThingDef[defName="{sourceDef}"]/building/relatedBuildCommands</xpath>
+                        <compare>InnerText</compare>
+                        <value>
+                            <li>{targetDef}</li>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </Operation>
+        </apply>
+    </XmlExtensions.PatchDef>
+</Defs>

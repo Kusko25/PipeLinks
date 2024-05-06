@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Operation Class="XmlExtensions.ApplyPatch">
+    <patchName>AddLinkedPipes</patchName>
+    <arguments>
+        <li>Core</li>
+        <li>PowerConduit</li>
+        <li>HiddenConduit</li>
+    </arguments>
+</Operation>
