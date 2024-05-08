@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Eccentric Tech - Spacer Furniture -->
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Eccentric Tech - Spacer Furniture</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Eccentric Tech - Spacer Furniture</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Eccentric Tech - Spacer Furniture</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Eccentric Tech - Spacer Furniture</li>
+            <li>EccentricFurniture_RepairCabinet</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Eccentric Tech - Spacer Furniture</li>
+            <li>EccentricFurniture_RepairShelf</li>
+            <li>Eccentric_SupplyConduit</li>
+            <li>Eccentric_SupplyConduitUnderground</li>
+            <li>EccentricFurniture_SupplyShelf</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+</Patch>

@@ -212,4 +212,109 @@
             <li>VRE_HemogenDrain</li>
         </arguments>
     </Operation>
+    <!-- Vanilla Temperature Expanded -->
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_VentValve</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_ACControlUnit</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_ACUnit</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_ACUnitWall</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_ACCompressor</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
+    <Operation Class="XmlExtensions.ApplyPatch">
+        <patchName>AddLinkedPipes</patchName>
+        <arguments>
+            <li>Vanilla Temperature Expanded</li>
+            <li>VTE_LargeACCompressor</li>
+            <li>VTE_AirDuct</li>
+            <li>VTE_UndergroundAirDuct</li>
+            <li>VTE_VentValve</li>
+            <li>null</li>
+            <li>null</li>
+            <li>null</li>
+        </arguments>
+    </Operation>
 </Patch>
