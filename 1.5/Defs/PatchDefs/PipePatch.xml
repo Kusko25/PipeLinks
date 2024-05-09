@@ -21,8 +21,13 @@
                         <xpath>Defs/ThingDef[defName="{sourceDef}"]</xpath>
                         <value>
                             <building>
-                                <relatedBuildCommands></relatedBuildCommands>
                             </building>
+                        </value>
+                    </Operation>
+                    <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+                        <xpath>Defs/ThingDef[defName="{sourceDef}"]/building</xpath>
+                        <value>
+                            <relatedBuildCommands></relatedBuildCommands>
                         </value>
                     </Operation>
                     <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
